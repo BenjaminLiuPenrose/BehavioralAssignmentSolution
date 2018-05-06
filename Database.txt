@@ -1,4 +1,4 @@
-WRSD
+WRDS
 '''username: econ4470; password: CUHK_elb_403'''
 CRSP
 Computestat

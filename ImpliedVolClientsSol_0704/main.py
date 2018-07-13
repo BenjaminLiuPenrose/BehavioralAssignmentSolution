@@ -15,6 +15,7 @@ import copy
 from scipy.stats import norm
 import numpy as np
 from modules.compute_implied_vol import *
+from modules.IV_model import *
 
 logging.getLogger().setLevel(logging.DEBUG)
 
@@ -30,63 +31,65 @@ def main():
 	Returns:
 
 	=============================================================================================='''
-	input('Hello sir, welcome! please press any key to proceed...\n');
-	flag = input('The type of option is? [C for call and P for put]\n');
-	while True:
-		try :
-			market_price = input('The market price of option is? [please enter a number]\n');
-			market_price = float(market_price);
-			break;
-		except Exception as e:
-			logging.error('Error message: '+str(e));
-			logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
-	while True:
-		try :
-			S = input('The price of the underlying is? [please enter a number]\n');
-			S = float(S);
-			break;
-		except Exception as e:
-			logging.error('Error message: '+str(e));
-			logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
+	IV_model();
 
-	while True:
-		try :
-			K = input('The strike of the option is? [please enter a number]\n');
-			K = float(K);
-			break;
-		except Exception as e:
-			logging.error('Error message: '+str(e));
-			logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
-	while True:
-		try :
-			T = input('The time to maturity (in years) is? [please enter a number ]\n');
-			T = float(T);
-			break;
-		except Exception as e:
-			logging.error('Error message: '+str(e));
-			logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
-	while True:
-		try :
-			r = input('The risk-free rate is? [please enter a number]\n');
-			r = float(r);
-			break;
-		except Exception as e:
-			logging.error('Error message: '+str(e));
-			logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
+	# input('Hello sir, welcome! please press any key to proceed...\n');
+	# flag = input('The type of option is? [C for call and P for put]\n');
+	# while True:
+	# 	try :
+	# 		market_price = input('The market price of option is? [please enter a number]\n');
+	# 		market_price = float(market_price);
+	# 		break;
+	# 	except Exception as e:
+	# 		logging.error('Error message: '+str(e));
+	# 		logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
+	# while True:
+	# 	try :
+	# 		S = input('The price of the underlying is? [please enter a number]\n');
+	# 		S = float(S);
+	# 		break;
+	# 	except Exception as e:
+	# 		logging.error('Error message: '+str(e));
+	# 		logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
 
-	# T = (datetime.date(2018, 10, 18)-datetime.date(2018, 4, 18)).days / (datetime.date(2018, 12,31)-datetime.date(2018, 1, 1)).days;
-	option ={
-		'S': S,
-		'K': K,
-		'T': T,
-		'r': r,
-		'market price': market_price,
-		'flag': flag
-	};
+	# while True:
+	# 	try :
+	# 		K = input('The strike of the option is? [please enter a number]\n');
+	# 		K = float(K);
+	# 		break;
+	# 	except Exception as e:
+	# 		logging.error('Error message: '+str(e));
+	# 		logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
+	# while True:
+	# 	try :
+	# 		T = input('The time to maturity (in years) is? [please enter a number ]\n');
+	# 		T = float(T);
+	# 		break;
+	# 	except Exception as e:
+	# 		logging.error('Error message: '+str(e));
+	# 		logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
+	# while True:
+	# 	try :
+	# 		r = input('The risk-free rate is? [please enter a number]\n');
+	# 		r = float(r);
+	# 		break;
+	# 	except Exception as e:
+	# 		logging.error('Error message: '+str(e));
+	# 		logging.error('Invalid input. Please enter a number and do not enter space or nothing.');
 
-	vol = compute_implied_vol(option)
-	logging.info("\n=================Implied Vol Demo=======================\n OPTION INFO:\n Option flag: {flag},\n Market price: {market_price},\n Underlying asset price: {S},\n Strike price: {K},\n Time to maturity(in years): {T},\n Risk free rate: {r}\n\n COMPUTED RESULTS:\n Implied vol is {iv}\n=========================================================".format(flag=flag, market_price=market_price, S=S, K=K, T=T, r=r, iv=vol))
-	input('Hello sir! hope to serve you next time, please press anykey to exit...\n')
+	# # T = (datetime.date(2018, 10, 18)-datetime.date(2018, 4, 18)).days / (datetime.date(2018, 12,31)-datetime.date(2018, 1, 1)).days;
+	# option ={
+	# 	'S': S,
+	# 	'K': K,
+	# 	'T': T,
+	# 	'r': r,
+	# 	'market price': market_price,
+	# 	'flag': flag
+	# };
+
+	# vol = compute_implied_vol(option)
+	# logging.info("\n=================Implied Vol Demo=======================\n OPTION INFO:\n Option flag: {flag},\n Market price: {market_price},\n Underlying asset price: {S},\n Strike price: {K},\n Time to maturity(in years): {T},\n Risk free rate: {r}\n\n COMPUTED RESULTS:\n Implied vol is {iv}\n=========================================================".format(flag=flag, market_price=market_price, S=S, K=K, T=T, r=r, iv=vol))
+	# input('Hello sir! hope to serve you next time, please press anykey to exit...\n')
 
 # def compute_implied_vol(option):
 # 	"""

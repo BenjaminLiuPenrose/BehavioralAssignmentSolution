@@ -1,0 +1,76 @@
+1529221385548	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1529221385565	geckodriver	INFO	Listening on 127.0.0.1:62682
+1529221388655	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Benjamin\\AppData\\Local\\Temp\\rust_mozprofile.9ytDW2l15dm9"
+1529221390874	Marionette	INFO	Enabled via --marionette
+1529221393196	Marionette	INFO	Listening on port 62691
+1529221393880	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15188, Chrome_ChildThread] W
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1529221482778	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1529221482784	geckodriver	INFO	Listening on 127.0.0.1:62792
+1529221485865	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Benjamin\\AppData\\Local\\Temp\\rust_mozprofile.F7jTR2vdTDcY"
+1529221487086	Marionette	INFO	Enabled via --marionette
+1529221488374	Marionette	INFO	Listening on port 62801
+1529221488998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529221529142	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript warning: http://www.epfr.com/members/default.aspx, line 1: unreachable code after return statement
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1529221947593	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1529221947600	geckodriver	INFO	Listening on 127.0.0.1:63011
+1529221950675	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Benjamin\\AppData\\Local\\Temp\\rust_mozprofile.DHQWRVQEiT7E"
+1529221951414	Marionette	INFO	Enabled via --marionette
+1529221952716	Marionette	INFO	Listening on port 63019
+1529221953802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.epfr.com/members/default.aspx, line 1: unreachable code after return statement
+[Parent 12180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c1529222800084	Marionette	INFO	Enabled via --marionette
+1529222801536	Marionette	INFO	Listening on port 63287
+1529222801930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.epfr.com/members/default.aspx, line 1: unreachable code after return statement
+1529222888280	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 10348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10348, Gecko_IOThread] WAR1529223632425	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Benjamin\\AppData\\Local\\Temp\\rust_mozprofile.CrK0dkTY9Cxy"
+1529223633504	Marionette	INFO	Enabled via --marionette
+1529223634786	Marionette	INFO	Listening on port 63517
+1529223635548	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3784, Chrome_ChildThread] [Child 14304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14304, Chrome_ChildThread[Parent 12108, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1529223729676	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1529223729682	geckodriver	INFO	Listening on 127.0.0.1:63614
+1529223732751	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Benjamin\\AppData\\Local\\Temp\\rust_mozprofile.0Qbzj2yLdJLe"
+1529223733416	Marionette	INFO	Enabled via --marionette
+1529223734824	Marionette	INFO	Listening on port 63622
+1529223735894	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.epfr.com/members/default.aspx, line 1: unreachable code after return statement
+[Parent 12844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1529224134384	Marionette	INFO	Listening on port 63796
+1529224134450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529224181668	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 13544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13544, Chrome_Ch[Child 14576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1529224353655	geckodriver	INFO	geckodriver 0.20.1 (685f18325cea0a282c736e65972f95aa6db7ca48 2018-04-03)
+1529224353661	geckodriver	INFO	Listening on 127.0.0.1:63918
+1529224356738	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Benjamin\\AppData\\Local\\Temp\\rust_mozprofile.FUP0D0YVC48I"
+1529224358096	Marionette	INFO	Enabled via --marionette
+1529224359428	Marionette	INFO	Listening on port 63926
+1529224359860	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4036, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

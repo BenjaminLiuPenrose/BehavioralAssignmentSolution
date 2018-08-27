@@ -1,0 +1,12 @@
+2018-07-05 19:57:19,261 INFO get_daily_returns: SPY begins
+2018-07-05 19:57:19,882 INFO get_daily_returns: DBC begins
+2018-07-05 19:57:21,320 INFO get_daily_returns: DBV begins
+2018-07-05 19:57:31,341 INFO get_daily_returns: TLT begins
+2018-07-05 19:57:32,042 INFO get_daily_returns: IEF begins
+2018-07-05 19:57:32,965 INFO get_daily_returns: VWOB begins
+2018-07-05 19:57:33,427 INFO get_daily_returns: TIP begins
+2018-07-05 19:57:34,283 INFO get_daily_returns: VTIP begins
+2018-07-05 19:57:38,041 INFO get_daily_returns: LQD begins
+2018-07-05 19:57:38,771 INFO get_daily_returns: VCSH begins
+2018-07-05 19:57:39,340 INFO get_daily_returns: VCIT begins
+2018-07-05 19:57:39,759 INFO get_daily_returns: CEMB begins
